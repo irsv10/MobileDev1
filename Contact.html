@@ -1,0 +1,648 @@
+<!--
+HTML Assigment 1, Irvin A. Ramos
+Mobile Development Class
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--Meta Mobile View Port OK-->
+	<meta name="viewport" content "width=device-width, initial-scale=1.0">
+	
+	<style>
+	
+	html { 
+
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.Option-Menu::after{
+	content: "";
+    clear: both;
+    display: block;
+	font-size: 5.0vmin;
+	
+}
+[class*="col-"] {
+    float: left;
+    padding: 50px;
+	font-size: 7.0vmin;
+	
+}
+
+.col-1 {width: 25.33%;}
+
+.text2::after {
+    float: bottom;
+    padding: 15px;
+	font-size: 3.0vmin;
+	position: absolute;
+	text-align: left;
+	
+	
+}
+.text2 {width: 70%;}
+
+#OfficialSite
+{
+	color: Dark-GrayText;
+	}
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* IE8 */
+}
+a {
+    color: blue;
+}
+img{
+	
+	 width: 80%;
+    height: auto;
+	
+	
+}
+
+.form1{
+text-align: left;
+
+width:70%;
+margin:2% 5%;
+padding:10px;
+height: auto;
+font-size: 5.0vmin;
+color: blue;
+}
+
+
+
+.header {
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+	text-align: center;
+	/*font-size: 3.0vw;
+*/
+ 
+	}
+	
+	.footer {
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+	text-align: center;
+	font-size: 3.0vw;
+	position: bottom;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    overflow: auto;}
+
+	.footer1 {
+
+position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color:black;
+  font-size: 3.0vw;
+	}
+ 
+/*
+    background-color: transparent;
+    color: black;
+	text-align: center;
+	font-size: 3.0vw;
+	position: float;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    overflow: auto;}
+	*/
+	h1{
+		
+	font-size: 8.0vmin;
+	}
+	h3{
+		
+	font-size: 3.7vmin;
+	color: blue;
+	margin:2% 5%;
+    padding:0px;
+	}
+	
+	l1{
+		
+	font-size: 5.0vmin;
+	}
+
+.Text1 {
+    
+    color: black;
+    padding: 5px;
+	text-align: center;
+	font-size: 5.0vmin;
+	background-color:white;
+	
+}
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	
+	img{
+	
+	position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
+	
+}
+	.Text1 {
+    
+    color: black;
+    padding: 5px;
+	text-align: center;
+	font-size: 5.0vmin;
+	background-color:white;
+	
+}
+	
+}
+
+
+/*#MainPhoto
+{
+	position: absolute;
+	left:140px;
+	top: 65px;
+	box-shadow: 10px 10px 5px #888888;
+	}
+	*/
+
+/*
+#ProgramSummary
+{
+	font: 15px comicsans;
+	position: absolute;
+	left:50px;
+	top: 440px;
+	color: Dark-GrayText;
+	width:850px;
+	background-color:white;
+	box-shadow: 10px 10px 5px #888888;
+	
+	}
+	
+	*/
+	
+	
+	
+	
+
+
+
+
+
+#a2
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 150px;
+	color: Green;
+	
+}
+
+#txt1
+{
+	font: 22px arial bold;
+	position: absolute;
+	left:50px;
+	top: 35px;
+	color: Green
+	
+}
+
+
+#punto
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 80px;
+	color: transparent;
+	
+}
+
+
+#Text2
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:220px;
+	top: 70px;
+	color:blue;
+	
+}
+
+form
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 180px;
+	color:gray;
+	
+}
+/*
+#mainform
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 100px;
+	color:gray;
+	background-color:transparent;
+	}
+	
+	*/
+#BestWayToReachU
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 100px;
+	color:gray;
+	background-color:transparent;
+	}	
+/*#BWTRU
+{
+	font: 20px arial bold;
+	position:Relative;
+	left:-10px;
+	top: 0px;
+	color:gray;
+	background-color:transparent;
+	}		
+	
+	
+#ContactName
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 130px;
+	color:gray;
+	background-color:transparent;
+	
+}
+
+/*#CN
+{
+	font: 20px arial bold;
+	position: relative
+	left:-10px;
+	top: 5px;
+	color:gray;
+	background-color:transparent;
+	
+}*/
+#PhoneNumber
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 160px;
+	color:gray;
+	background-color:transparent;
+}
+
+/*
+#PN
+{
+	font: 20px arial bold;
+	position: relative;
+	left:-10px;
+	top: 5px;
+	color:gray;
+	background-color:transparent;
+}*/
+#Email
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 190px;
+	color:gray;
+	background-color:green;
+}/*
+#EM
+{
+	font: 20px arial bold;
+	position: relative;
+	left:-10px;
+	top: 5px;
+	color:gray;
+	background-color:transparent;
+}*/
+
+
+#form1
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 200px;
+	color:gray;
+	background-color:white;
+}
+
+#form2
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 230px;
+	color:gray;
+	background-color:white;
+}
+
+#form3
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 350px;
+	color:gray;
+	background-color:green;
+}
+
+
+
+#MainVideo
+{
+	position: absolute;
+	left:80px;
+	top: 100px;
+	
+}
+
+#nav2
+{
+	position: absolute;
+	left:5px;
+	top: 15px;
+	
+}
+	
+	
+	
+	
+	</style>
+	
+	<!--Title of the WebSite OK-->
+	<title>DTLP GE</title>
+
+	<!--Main Title of Site OK-->
+	<div class="header">
+	<h1>GE Digital Technology Leadership Program</h1>
+	</div>
+	
+	
+	</head>
+	<body onload='document.mainform.text1.focus()'>
+	<!--	
+	<script src="../js/email-validation.js"></script>
+	-->
+	<script>
+	
+function phonenumber(inputtxt) {
+  var phoneno = /^\+?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+  if(String(inputtxt).match(phoneno)) {
+    alert("Valid Phone Number");
+	return true;
+  }  
+  else{
+    alert("Invalid Phone Number");
+    return false;
+  }
+  /*http://www.w3resource.com/javascript/form/email-validation.php*/
+}
+
+function oneclick()
+{
+	var valor = document.getElementById("Way").value;
+	if(valor=="work"){
+	var work1 =document.getElementById("phone").value;
+		phonenumber(work1);
+	}
+	else if(valor=="Cellphone"){
+	var cphone1 =document.getElementById("cphone").value;
+		phonenumber(cphone1);
+	}
+	else if((valor=="email")){
+		var email1 =document.getElementById("text1").value;
+		ValidateEmail(email1);
+	}
+	else if((valor=="messenger")){
+		 var messenger1 =document.getElementById("text1").value;
+		ValidateEmail(messenger1);
+	}	
+}
+
+function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(String(inputText).match(mailformat))
+{
+	alert("Valid Email Address!");
+return true;
+}
+else
+{
+alert("Invalid email address!");
+return false;
+}
+/*http://www.w3resource.com/javascript/form/email-validation.php*/
+}
+
+ function ShowInputs()
+ {
+	 var values = document.getElementById("Way").value;
+	 /*alert(values)*/
+	 if(values=="none"){
+	 document.getElementById('rowcphone').setAttribute("hidden",true);
+	 document.getElementById('rowemail').setAttribute("hidden",true);
+	 document.getElementById('rowwphone').setAttribute("hidden",true);
+	 }
+	 else if(values=="work")
+	 {
+	 document.getElementById('rowwphone').removeAttribute("hidden",true);
+	 document.getElementById('rowcphone').setAttribute("hidden",true);
+	 document.getElementById('rowemail').setAttribute("hidden",true);
+	 }
+	 else if( values=="Cellphone"){
+	 document.getElementById('rowcphone').removeAttribute("hidden",true);
+	 document.getElementById('rowwphone').setAttribute("hidden",true);
+	 document.getElementById('rowemail').setAttribute("hidden",true);} 
+	else if( values=="email"){
+	 document.getElementById('rowemail').removeAttribute("hidden",true); 
+	 document.getElementById('rowcphone').setAttribute("hidden",true);
+	document.getElementById('rowwphone').setAttribute("hidden",true);}
+	else if( values=="messenger"){
+	 document.getElementById('rowemail').removeAttribute("hidden",true);
+	 document.getElementById('rowcphone').setAttribute("hidden",true);
+	document.getElementById('rowwphone').setAttribute("hidden",true);
+	} 
+ }
+ 
+ 
+	
+	</script>
+	
+		<header>
+		<!--
+			<nav>
+				<ul>
+					<li id="punto">
+						<a id="a2" href="../index.html">Home</a>
+					</li>
+				</ul>
+			</nav>
+			-->
+	<!--Secondary Title of Site OK-->
+	<div class="header">
+	<h3>Fill the Contact Information to get in touch</h3>
+	</br>
+	</br>
+	</br>
+	</div>
+			
+		</header>
+		<section>
+
+			<form method="POST" name="mainform" id="mainform" class="form1">
+			</br>
+			<table>
+			<tr>
+			<td>
+				<label for="ContactName" id="CN">
+			Full Name:
+				</label>
+			</td>
+			<td>	
+				<input name="ContactName" id="CN" />
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<label for="BestWayToReachU" id="BWTRU">
+				Best Way To Reach You:
+				</label>
+			</td>
+			<td>
+				<select name="BestWayToReachU" id="Way" onchange="ShowInputs()">
+					<option value="none" selected></option>
+					<option value="work">a)Work Phone</option>
+					<option value="Cellphone">b)Cell Phone</option>
+					<option value="email">c)Email</option>
+					<option value="messenger">d)Instant Messenger</option>
+				</select>
+			</td>
+			</tr>
+			<tr hidden id="rowwphone" name="rowwphone">
+			<td>
+			<label name="ContactName" id="PN">
+			Work Phone Number:
+			</label>
+			</td>
+			<td><input name="phone" id="phone" type="text" placeholder="000-000-0000">
+			</td>
+			</tr>
+			<tr hidden id="rowcphone" name="rowcphone">
+			<td>
+			<label name="ContactNamec" id="CPN">
+			Cell Phone Number:
+			</label>
+			</td>
+			<td><input name="cphone" id="cphone" type="text" placeholder="000-000-0000">
+			</td>
+			</tr>
+			<tr hidden id="rowemail" name="rowemail">
+			<td>
+			<label name="Email" id="EM">
+				Email:
+			</label>
+			</td>
+			<td>
+				<input type='text' id="text1" name='text1' placeholder="your@email.com"/>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<label for="TimeChoice" id="TC">
+				Time Choice:
+			</label>
+			</td>
+			<td>
+				<select name="TimeChoice" id="TimeChoice">
+					<option selected>9:00</option>
+					<option>10:00</option>
+					<option>11:00</option>
+					<option>15:00</option>
+					<option>16:00</option>
+					<option>17:00</option>
+				</select>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<label for="LocatedUS" id="LocatedUS">
+				Located in US?
+			</label>
+			</td>
+			<td>
+			<input type="checkbox" name="LocatedUS" id="LocatedUS" checked="true" />
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<label for="Comments" id="Comments">
+				Comments:
+			</label>
+			</td>
+			<td>
+			<input name="Comments" id="Comments" maxlength="200" size="20"/> 
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<li class="submit"><input type="submit" name="submit" value="Submit" onclick="oneclick()"/></li>
+			</td>
+			</tr>
+			</form>
+		
+		</section> 
+		<footer class="footer1";>
+	
+		&copy; 2017 Irvin A. Ramos 
+		</br>
+		</br>
+		</br>			
+		</footer>   
+		
+		
+	</body>
+</html>
