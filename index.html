@@ -1,0 +1,493 @@
+<!--
+HTML Assigment 3, Irvin A. Ramos
+Mobile Development Class
+ -->
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--Meta Mobile View Port OK-->
+	<meta name="viewport" content "width=device-width, initial-scale=1.0">
+	<style>
+	
+	html { 
+
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.Option-Menu::after{
+	content: "";
+    clear: both;
+    display: block;
+	font-size: 5.0vmin;
+	
+}
+[class*="col-"] {
+    float: left;
+    padding: 50px;
+	font-size: 7.0vmin;
+	
+}
+
+.col-1 {width: 25.33%;}
+
+.text2::after {
+    float: bottom;
+    padding: 15px;
+	font-size: 3.0vmin;
+	position: absolute;
+	text-align: left;
+	
+	
+}
+.text2 {width: 70%;}
+
+#OfficialSite
+{
+	color: Dark-GrayText;
+	}
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* IE8 */
+}
+a {
+    color: blue;
+}
+img{
+	
+	 width: 80%;
+    height: auto;
+	
+	
+}
+
+.form1{
+text-align: left;
+
+width:70%;
+margin:2% 5%;
+padding:10px;
+height: auto;
+font-size: 5.0vmin;
+color: orange;
+}
+
+
+
+.header {
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+	text-align: center;
+	/*font-size: 3.0vw;
+*/
+ 
+	}
+	
+	.footer {
+    background-color: transparent;
+    color: black;
+    padding: 5px;
+	text-align: center;
+	font-size: 3.0vw;
+	position: bottom;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    overflow: auto;}
+
+	.footer1 {
+
+position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color:black;
+  font-size: 3.0vw;
+	}
+ 
+/*
+    background-color: transparent;
+    color: black;
+	text-align: center;
+	font-size: 3.0vw;
+	position: float;
+	left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    overflow: auto;}
+	*/
+	h1{
+		
+	font-size: 8.0vmin;
+	}
+	h3{
+		
+	font-size: 3.7vmin;
+	color: blue;
+	margin:2% 5%;
+    padding:0px;
+	}
+	
+	l1{
+		
+	font-size: 5.0vmin;
+	}
+
+.Text1 {
+    
+    color: black;
+    padding: 5px;
+	text-align: center;
+	font-size: 5.0vmin;
+	background-color:white;
+	
+}
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+	
+	img{
+	
+	position:relative;
+    max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%;
+	
+}
+	.Text1 {
+    
+    color: black;
+    padding: 5px;
+	text-align: center;
+	font-size: 5.0vmin;
+	background-color:white;
+	
+}
+	
+}
+
+
+/*#MainPhoto
+{
+	position: absolute;
+	left:140px;
+	top: 65px;
+	box-shadow: 10px 10px 5px #888888;
+	}
+	*/
+
+/*
+#ProgramSummary
+{
+	font: 15px comicsans;
+	position: absolute;
+	left:50px;
+	top: 440px;
+	color: Dark-GrayText;
+	width:850px;
+	background-color:white;
+	box-shadow: 10px 10px 5px #888888;
+	
+	}
+	
+	*/
+	
+	
+	
+	
+
+
+
+
+
+#a2
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 150px;
+	color: Green;
+	
+}
+
+#txt1
+{
+	font: 22px arial bold;
+	position: absolute;
+	left:50px;
+	top: 35px;
+	color: Green
+	
+}
+
+
+#punto
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 80px;
+	color: transparent;
+	
+}
+
+
+#Text2
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:220px;
+	top: 70px;
+	color:blue;
+	
+}
+
+form
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 180px;
+	color:gray;
+	
+}
+/*
+#mainform
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 100px;
+	color:gray;
+	background-color:transparent;
+	}
+	
+	*/
+#BestWayToReachU
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 100px;
+	color:gray;
+	background-color:transparent;
+	}	
+/*#BWTRU
+{
+	font: 20px arial bold;
+	position:Relative;
+	left:-10px;
+	top: 0px;
+	color:gray;
+	background-color:transparent;
+	}		
+	
+	
+#ContactName
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 130px;
+	color:gray;
+	background-color:transparent;
+	
+}
+
+/*#CN
+{
+	font: 20px arial bold;
+	position: relative
+	left:-10px;
+	top: 5px;
+	color:gray;
+	background-color:transparent;
+	
+}*/
+#PhoneNumber
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 160px;
+	color:gray;
+	background-color:transparent;
+}
+
+/*
+#PN
+{
+	font: 20px arial bold;
+	position: relative;
+	left:-10px;
+	top: 5px;
+	color:gray;
+	background-color:transparent;
+}*/
+#Email
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:40px;
+	top: 190px;
+	color:gray;
+	background-color:green;
+}/*
+#EM
+{
+	font: 20px arial bold;
+	position: relative;
+	left:-10px;
+	top: 5px;
+	color:gray;
+	background-color:transparent;
+}*/
+
+
+#form1
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 200px;
+	color:gray;
+	background-color:white;
+}
+
+#form2
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 230px;
+	color:gray;
+	background-color:white;
+}
+
+#form3
+{
+	font: 20px arial bold;
+	position: absolute;
+	left:50px;
+	top: 350px;
+	color:gray;
+	background-color:green;
+}
+
+
+
+#MainVideo
+{
+	position: absolute;
+	left:80px;
+	top: 100px;
+	
+}
+
+#nav2
+{
+	position: absolute;
+	left:5px;
+	top: 15px;
+	
+}
+
+	</style>
+	<!--Reference to CSS File OK
+	<link rel="stylesheet" type="text/css" href="style/DTLP.css">-->
+	
+	<!--Title of the WebSite OK-->
+	<title>DTLP GE</title>
+	
+	<!--Main Title of Site OK-->
+	<div class="header">
+	<h1>GE Digital Technology Leadership Program</h1>
+	</div>
+
+	</head>
+
+	<body>
+	
+	<!--Main Menu With Links-->
+	<div class="Option-Menu">
+	
+	<!--Main Links-->
+	<div class="col-1 menu">
+	
+	<ul>
+		<!--Official Site-->
+		<li>
+		<a target="_blank"href="https://www.ge.com/careers/culture/university-students/digital-technology-leadership-program/global" id="OfficialSite">Oficial Site</a>
+		</li>
+
+		<!--Facebook-->
+		<li>
+		<a target="_blank"href="https://www.facebook.com/GEDTLP">Facebook</a>
+		</li>
+
+		<!--Twitter-->
+		<li>
+		<a target="_blank"href="https://twitter.com/GEDTLP">Twitter</a>
+		</li>
+		
+		<!--Contact Us-->
+		<li>
+		<a href="contact.html">Contact</a>
+		</li>	
+		
+		<!--DTLP Video-->
+		<li>
+		<a href="video.html">2017 DTLP Video</a>
+		</li>	
+	</ul>
+	</div>
+
+		<header>
+		<!--Main Photo AutoAdjust OK-->
+			<div id="MainPhoto" class="mainphoto";>
+			<img src="IndianaUniversity.jpg" alt="DTLP_@IU" class="image_mobile"/>
+			</div>
+		</header>
+		
+		<!--Main Text AutoAdjust OK-->
+		<section class="Text">
+			<div class="col-6">
+			<p id="ProgramSummary" class="Text1">
+			Program Summary
+			</br>
+			</br>
+			</br>
+			This leadership program is a two-year program with four rotational job assignments focused on GEs top digital initiatives. Program members lead by doing gaining real-world experience by working on important and challenging projects alongside some of the brightest minds in the world.
+			Digital technology is the foundation for GE as a Digital Industrial company.  Digital technology combines the best of software & information technology (IT) and is critical to the future of GE. With more than 11,000 professionals in roughly 50 countries, digital technology is a major area of focus and investment across the company and is essential to maintaining our leadership, competitiveness and success. For those with a passion for technology, no other company offers the diversity of experience and career potential that GE does.
+			As a pipeline for future leaders of GEs world-class global digital technology organization, our Digital Technology Leadership Program has partnered with academic and industry training providers to deliver continued education in technology, management and leadership. This training includes in-person classes inside and outside of the U.S., and other virtual electives.
+			(GE Careers, 2017)
+			</br>
+			</br>
+			</br>			
+			</p>	
+			</div>
+		</section> 
+		<footer class="footer";>
+		
+		&copy; 2017 Irvin A. Ramos 
+		</br>
+		</br>
+		</br>			
+		</footer>   
+	</body>
+	
+</html>
